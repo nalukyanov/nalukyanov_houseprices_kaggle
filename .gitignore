@@ -10,10 +10,23 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.pyre/
+.pytype/
+.cache/
+.hypothesis/
+.tox/
+.nox/
 .ipynb_checkpoints/
 .coverage
 .coverage.*
 htmlcov/
+coverage.xml
+
+# Артефакты сборки Python
+build/
+dist/
+*.egg-info/
+.eggs/
 
 # Сгенерированные данные и результаты обучения
 preprocessed_data/
@@ -31,3 +44,8 @@ catboost_info/
 # Служебные файлы macOS
 .DS_Store
 ._*
+
+# Временные файлы редакторов
+*.swp
+*.swo
+*~
