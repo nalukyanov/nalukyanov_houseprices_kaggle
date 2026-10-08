@@ -1,0 +1,33 @@
+# Виртуальные окружения
+.venv/
+.venv-*/
+venv/
+env/
+
+# Python и кеши инструментов
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+
+# Сгенерированные данные и результаты обучения
+preprocessed_data/
+results/
+catboost_info/
+*.log
+
+# Локальные настройки и секреты
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+
+# Служебные файлы macOS
+.DS_Store
+._*
